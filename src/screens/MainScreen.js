@@ -78,7 +78,7 @@ export default function MainScreen() {
       <StatusBar translucent backgroundColor='transparent' barStyle='dark-content' />
       <View style={styles.dataPrint} >
         <Text style={styles.textStyle} numberOfLines={1} >{calculateData}</Text>
-        <Text style={{ ...styles.textStyle, fontSize: 25 }} numberOfLines={1} >={answer}</Text>
+        <Text style={{ ...styles.textStyle, fontSize: 25 }} numberOfLines={1} >{answer}</Text>
       </View>
       <View>
         <Calculator data={Data.methods} selectData={(val) => selectButton(val)} /> 
